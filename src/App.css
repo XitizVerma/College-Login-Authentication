@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+  padding: 40px;
+}
+body{
+background-image:url('./password.jpg');
+background-size: 100% 100%;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+.headerLogin
+{
+  font-size: 40px;
+  text-align: center;
+  color: rgb(0, 52, 224);
+}
+.card {
+  box-shadow: 0 6px 10px 0 rgba(0,0,0,0.6);
+  transition: 0.3s;
+  width: 25%;
+  border-radius: 50px;
+  background-color: rgb(255, 255, 255);
+  padding:2em;
+  align-items: center;
+  margin: auto;
+}
+
+.card:hover {
+  box-shadow: 0 12px 20px 0 rgba(0, 0, 0, 0.6);
+}
+.items{
+  padding: 30px;
+}
